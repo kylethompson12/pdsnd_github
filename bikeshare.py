@@ -2,6 +2,10 @@ import time
 import pandas as pd
 import numpy as np
 
+""" 
+This section creates the mapping used to read in the datasets and map the user filter inputs.
+
+"""
 CITY_DATA = {'chicago': 'chicago.csv','new york city': 'new_york_city.csv','washington': 'washington.csv'}
 months = {'january', 'february', 'march', 'april', 'may', 'june', 'all'}
 day_map = {'1': 'Sunday','2': 'Monday','3': 'Tuesday','4': 'Wednesday','5': 'Thursday','6': 'Friday','7': 'Saturday'}
